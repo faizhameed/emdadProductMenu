@@ -7,6 +7,7 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import RubberSheet from "./rubber-sheet/rubber-sheet";
+import useWindowSize from "../utils/window-size";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -38,30 +39,39 @@ function a11yProps(index) {
   };
 }
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-    backgroundColor: theme.palette.background.paper,
-    display: "flex",
-    height: 224
-  },
-  tabs: {
-    borderRight: `1px solid ${theme.palette.divider}`
-  }
-}));
+const useStyles = makeStyles(theme => {
+  return {
+    root: {
+      flexGrow: 1,
+      backgroundColor: theme.palette.background.paper,
+      display: "flex",
+      height: "100vh"
+    },
+    tabs: {
+      borderRight: `1px solid ${theme.palette.divider}`
+    },
+    rootSmall: {
+      flexGrow: 1,
+      backgroundColor: theme.palette.background.paper,
+      display: "block",
+      height: 10,
+      margin: "0 auto"
+    }
+  };
+});
 
 export default function VerticalTabs() {
-  const classes = useStyles();
   const [value, setValue] = React.useState(0);
-
+  const size = useWindowSize();
+  const classes = useStyles();
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
 
   return (
-    <div className={classes.root}>
+    <div className={size.width > 1000 ? classes.root : classes.rootSmall}>
       <Tabs
-        orientation="vertical"
+        orientation={size.width > 1000 ? "vertical" : "horizontal"}
         variant="scrollable"
         value={value}
         onChange={handleChange}
