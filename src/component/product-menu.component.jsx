@@ -1,5 +1,4 @@
 import React from "react";
-import "./product-menu.styles.scss";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 import Tabs from "@material-ui/core/Tabs";
@@ -10,6 +9,8 @@ import useWindowSize from "../utils/window-size";
 import productData from "./data/product-data";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
+import CardMedia from "@material-ui/core/CardMedia";
+import "./product-menu.styles.scss";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -47,16 +48,31 @@ const useStyles = makeStyles(theme => {
       flexGrow: 1,
       backgroundColor: theme.palette.background.paper,
       display: "flex",
-      height: "100vh"
+      height: "80vh",
+      "&::-webkit-scrollbar ": {
+        width: " 0.2em"
+      },
+      "&::-webkit-scrollbar-track": {
+        boxShadow: "inset 0 0 6px rgba(0, 0, 0, 0.3)"
+      },
+
+      "&::-webkit-scrollbar-thumb": {
+        backgroundColor: "darkgrey",
+        outline: "1px solid slategrey"
+      }
     },
     tabs: {
       borderRight: `1px solid ${theme.palette.divider}`
+    },
+    media: {
+      height: 200,
+      borderRadius: "4px 4px 0 0"
     },
     rootSmall: {
       flexGrow: 1,
       backgroundColor: theme.palette.background.paper,
       display: "block",
-      height: 10,
+      height: "80vh",
       margin: "0 auto"
     }
   };
@@ -69,9 +85,24 @@ export default function VerticalTabs() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-
+  const style = {
+    backgroundColor: "#1a1a1d",
+    color: "#fff",
+    overflowY: "auto",
+    overflowX: "hidden"
+  };
+  const tabsStyle = {
+    backgroundColor: "#1a1a1d",
+    color: "#fff",
+    overflowY: "auto",
+    overflowX: "hidden",
+    fontSize: "2em"
+  };
   return (
-    <div className={size.width > 1000 ? classes.root : classes.rootSmall}>
+    <div
+      style={style}
+      className={size.width > 1000 ? classes.root : classes.rootSmall}
+    >
       <Tabs
         orientation={size.width > 1000 ? "vertical" : "horizontal"}
         variant="scrollable"
@@ -79,6 +110,7 @@ export default function VerticalTabs() {
         onChange={handleChange}
         aria-label="Vertical tabs example"
         className={classes.tabs}
+        style={tabsStyle}
       >
         <Tab label="Packing and Seals" {...a11yProps(0)} />
         <Tab label="Gasket" {...a11yProps(1)} />
@@ -88,13 +120,17 @@ export default function VerticalTabs() {
       <React.Fragment>
         {Object.keys(productData).map((product, i) => {
           return (
-            <TabPanel value={value} index={i}>
+            <TabPanel value={value} index={i} key={Object.keys(productData)[i]}>
               <Grid container spacing={2}>
                 {productData[product].map(item => {
                   return (
-                    <Grid>
+                    <Grid key={item[Object.keys(item)[0]].id}>
                       <Paper className="product-item">
-                        <img src="" alt="" />
+                        <CardMedia
+                          className={classes.media}
+                          image="https://picsum.photos/seed/picsum/200/300"
+                          title={Object.keys(item)[0]}
+                        />
                         <h3>{Object.keys(item)}</h3>
                         <p>{item[Object.keys(item)[0]].Description}</p>
                         <h4>Uses</h4>

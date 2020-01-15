@@ -4,7 +4,7 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.00938em;
-  width: 100%;
+  width: 90%;
   .MuiBox-root {
     max-height: 90vh;
     overflow-y: auto;
@@ -23,6 +23,32 @@
 .makeStyles-tabs-2 {
   width: 232px;
 }
+
+h3 {
+  font-size: 1.3em;
+  color: #1a1a1a;
+}
+h4 {
+  font-size: 1em;
+  color: #f16c5a;
+}
+p {
+  font-size: 0.9em;
+}
+.product-item {
+  width: 400px;
+  margin: 20px;
+  padding: 0 0 10px;
+  p {
+    text-align: justify;
+  }
+  h3,
+  h4,
+  p {
+    padding: 0 10px;
+    margin: 2px 0;
+  }
+}
 @media screen and (max-width: 1000px) {
   .makeStyles-tabs-2 {
     width: fit-content;
@@ -35,28 +61,8 @@
       width: auto;
       margin: 0 auto;
     }
-  }
-}
-h3 {
-  font-size: 2em;
-}
-h4 {
-  font-size: 1.5em;
-}
-p {
-  font-size: 1em;
-}
-.product-item {
-  width: 400px;
-  margin: 20px;
-  p {
-    text-align: justify;
-    padding: 10px;
-  }
-  h3,
-  h4,
-  p {
-    padding: 10px;
-    margin: 0;
+    .product-item {
+      width: 90%;
+    }
   }
 }
