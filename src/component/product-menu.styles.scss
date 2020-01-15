@@ -12,4 +12,51 @@
     display: block;
     width: 100%;
   }
+  .MuiGrid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+}
+.makeStyles-tabs-2 {
+  width: 232px;
+}
+@media screen and (max-width: 1000px) {
+  .makeStyles-tabs-2 {
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+    border-right: 0px solid rgba(0, 0, 0, 0.12) !important;
+  }
+  @media screen and (max-width: 450px) {
+    .makeStyles-tabs-2 {
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 1em;
+}
+.product-item {
+  width: 400px;
+  margin: 20px;
+  p {
+    text-align: justify;
+    padding: 10px;
+  }
+  h3,
+  h4,
+  p {
+    padding: 10px;
+    margin: 0;
+  }
 }
