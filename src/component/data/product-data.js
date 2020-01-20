@@ -4,6 +4,7 @@ const productData = {
   "Packing and Seals": [
     {
       "Graphite packing": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/graphite-packing.jpg",
         Description:
           "Created from a unique braid of low sulphur expanded graphite yarns with additional reinforcement from either cotton or glass fiber, this graphite packing showcases the chemical resistance, high elasticity, thermal conductivity, and low friction factor that makes it perfect for your needs.",
         id: uuidv4(),
@@ -13,6 +14,7 @@ const productData = {
     },
     {
       "Carbon Fiber Packing": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/carbon-fiber-packing.jpg",
         Description:
           "Created from a braid of custom high-grade carbon fiber with additional graphite impregnation, this carbon fiber packing is self-lubricated and densely packed to prevent leakage.",
         id: uuidv4(),
@@ -23,6 +25,7 @@ const productData = {
 
     {
       "Asbestos Packing": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Asbestos-Packing.jpeg",
         Description:
           "Created from a braid of the highest quality asbestos yarns, asbestos packing provides strength and flexibility in a range of serving temperatures.",
         id: uuidv4(),
@@ -32,6 +35,7 @@ const productData = {
     },
     {
       "PTFE Packing": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/PTFE-packing.jpg",
         Description:
           "Created from a braid of either pure PTFE yarns or yarns with lube oil according to your specifications, PTFE Packing provides resistance to corrosion, low heat conductivity and non-sticking properties to suit your company needs.",
         id: uuidv4(),
@@ -42,6 +46,7 @@ const productData = {
 
     {
       "Fibreglass Packing": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Fiber-Glass-Packing.png",
         Description:
           "Created from a combination of organic and inorganic fibers, Fiberglass Packing has the high strength, low thermal conductivity and fire resistance that make it such an attractive alternative to asbestos.",
         id: uuidv4(),
@@ -51,6 +56,7 @@ const productData = {
     },
     {
       "Aramid Fiber Packing": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Aramid-Fiber-Packing.jpg",
         Description:
           "Created from a braid of Kevlar yarn, this high quality material has been uniformly impregnated with PTFE to confer properties like chemical resistance, elasticity and wear resistance. It may also be impregnated with a silicone-Based lubricant to withstand wear.",
         id: uuidv4(),
@@ -61,6 +67,7 @@ const productData = {
 
     {
       "Ceramic Fiber Packing": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Ceramic-Fiber-Packing.jpg",
         Description:
           "Created from square braided ceramic fiber yarns, ceramic f6riber Packing is manufactured from high quality alumina-silica materials that possess resistance to almost all chemically corrosive agents, and high temperature stability with low heat storage.",
         id: uuidv4(),
@@ -70,6 +77,7 @@ const productData = {
     },
     {
       " Cotton Fiber Packing": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Cotton-Fiber-Packing.jpg",
         Description:
           "Created from a braid of cotton fibre yarns, cotton fibre packing can be impregnated with either yellow grease or graphite to be flexible and easy to use.",
         id: uuidv4(),
@@ -79,6 +87,7 @@ const productData = {
     },
     {
       "Ramie Fiber Packing": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Ramie-Fiber-Packing.jpg",
         Description:
           "Created from a braid of ramie fibres that could either be impregnated with PTFE, lube oil or with a silicon core, ramie fibre packing can be used in a variety of delicate applications as a result of its potential for vibration absorption.",
         id: uuidv4(),
@@ -90,6 +99,7 @@ const productData = {
   Gasket: [
     {
       "Rubber Gasket": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Rubber-Gaskets.jpg",
         Description:
           "made from all-purpose rubber, our rubber gaskets are prized for their corrosion resistance, resilience and tensile strength.",
         id: uuidv4(),
@@ -99,6 +109,7 @@ const productData = {
     },
     {
       "Ceramic Gasket": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Ceramic-Gasket.jpg",
         Description:
           "Created from ceramic fibre paper, our ceramic gasket is affordable, lightweight and confers excellent thermal resistance.",
         id: uuidv4(),
@@ -109,6 +120,7 @@ const productData = {
 
     {
       "Spiral Wound Gasket": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Spiral-Wound-Gasket.jpg",
         Description:
           "Created from a metal hoop and non-metal filler, our spiral wound gasket is ideal for sealing areas with inconsistent temperature and pressure.",
         id: uuidv4(),
@@ -119,6 +131,7 @@ const productData = {
 
     {
       "Metal Jacketed Gasket": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Metal-Jacketed-Gasket.jpg",
         Description:
           "Created from filler material enclosed by a metal jacket, our metal jacketed gasket is ideal for use when you expect to encounter high temperature and pressure.",
         id: uuidv4(),
@@ -129,6 +142,7 @@ const productData = {
 
     {
       "Corrugated Metal Gasket": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Corrugated-metal-Gasket.jpg",
         Description:
           "Created from corrugated metal with either single or double layers, our corrugated metal gasket is ideal for situations where you expect high temperatures and you need significant mechanical strength.",
         id: uuidv4(),
@@ -138,6 +152,7 @@ const productData = {
     },
     {
       "PTFE Gasket": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/PTFE-Gasket.jpg",
         Description:
           "Created from PTFE resin, our PTFE gasket has one of the best resistance to chemicals on the planet as well as excellent electrical insulation. It could be also combined with glass fibre.",
         id: uuidv4(),
@@ -147,6 +162,7 @@ const productData = {
     },
     {
       " Machined Metal Gasket": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Machined-Metal-Gasket.jpg",
         Description:
           "Created from solid metal., our machined metal gasket comes in handy when you expect high pressure and temperature conditions.",
         id: uuidv4(),
@@ -157,6 +173,7 @@ const productData = {
 
     {
       " Flat Metal Gasket": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Flat-metal-Gasket.jpg",
         Description:
           "Created from solid, flat metal, our flat metal gasket should be used when you require tight sealing even in high-pressure environments. It also has a significant amount of temperature and corrosion resistance.",
         id: uuidv4(),
@@ -166,6 +183,7 @@ const productData = {
     },
     {
       "Graphite Gasket": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Graphite-Gasket.jpg",
         Description:
           "Created from homogenous graphite, our graphite gasket could either be reinforced with mesh or tanged metal. This gives it extra temperature resistance as well as the ability to resist corrosion.",
         id: uuidv4(),
@@ -176,6 +194,7 @@ const productData = {
 
     {
       "EZ-Seal Gasket": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/EZ-seal-Gasket.jpg",
         Description:
           "Created from a unique design that confers supreme chemical compatibility and great cold-flow resistance, our EZ-seal gasket is extremely stress-resistant.",
         id: uuidv4(),
@@ -188,6 +207,7 @@ const productData = {
   Sheets: [
     {
       "Graphite Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Graphite-Sheet.jpg",
         Description:
           "Created from the purest natural graphite, our graphite sheet is made without any chemical additives to give you material with unparalleled compressibility and chemical resistance.",
         id: uuidv4(),
@@ -198,6 +218,7 @@ const productData = {
 
     {
       "Rubber Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Rubber-Sheet.png",
         Description:
           "Created from natural rubber for its chemical and temperature resistant qualities, our rubber sheet can be manufactured to meet your particular specifications.",
         id: uuidv4(),
@@ -207,6 +228,7 @@ const productData = {
     },
     {
       "NR Rubber Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/NR-Rubber-Sheet.jpg",
         Description:
           "Created from natural rubber with a host of additives, our NR rubber sheet has properties that can be adjusted to meet specific requirements.",
         id: uuidv4(),
@@ -216,6 +238,7 @@ const productData = {
     },
     {
       "NBR Rubber Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/NBR-Rubber-Sheet.jpg",
         Description:
           "Created from nitrile rubber due to its resistance to mineral oils and acids, our NBR rubber sheet also has phenomenal tensile strength and resilience",
         id: uuidv4(),
@@ -226,6 +249,7 @@ const productData = {
 
     {
       "SBR Rubber Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/SBR-Rubber-Sheet.jpg",
         Description:
           "Created from styrene-butadiene rubber as a result of its extreme resistance to wear and tear, our STR rubber sheet is a cheaper alternative to natural rubber. Unlike NBR, however, it has little chemical resistance.",
         id: uuidv4(),
@@ -235,6 +259,7 @@ const productData = {
     },
     {
       "Neoprene Rubber Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Neoprene-Rubber-Sheet.jpg",
         Description:
           "Created from neoprene rubber as a result of its ability to stand up to wear and tear, our neoprene rubber sheet is an all-purpose, water and ozone resistant material.",
         id: uuidv4(),
@@ -245,6 +270,7 @@ const productData = {
 
     {
       "EPDM Rubber Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/EPDM-Rubber-Sheet.jpg",
         Description:
           "Created to be an all-purpose material with great heat and chemical resistance, but poor oil resistance, our EPDM rubber sheet can be used where environmental conditions are poor.",
         id: uuidv4(),
@@ -254,6 +280,7 @@ const productData = {
     },
     {
       "Silicone Rubber Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Silicone-Rubber-Sheet.jpg",
         Description:
           "Created from silicone, these sheets evince a range of properties including chemical resistance, resistance to wear, and lightweight.",
         id: uuidv4(),
@@ -263,6 +290,7 @@ const productData = {
     },
     {
       "Hypalon Rubber Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Hypalon-Rubber-Sheet.jpg",
         Description:
           "Created from chloro-sulfonated polyethene, our Hypalon rubber sheet showcases tool ozone resistance and phenomenal weather resistance. It could also function as a replacement for neoprene in certain settings.",
         id: uuidv4(),
@@ -272,6 +300,7 @@ const productData = {
     },
     {
       "Latex Rubber Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Latex-Rubber-Sheet.jpg",
         Description:
           "Created from the natural secretion from the rubber tree, our pure latex rubber sheets possess excellent strength and elasticity.",
         id: uuidv4(),
@@ -281,6 +310,7 @@ const productData = {
     },
     {
       "Butyl Rubber Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Butyl-Rubber-Sheet.jpg",
         Description:
           "Created from Isobutylene-isoprene, our butyl rubber sheet is gas and wear-resistant, and is practically impermeable to air.",
         id: uuidv4(),
@@ -290,6 +320,7 @@ const productData = {
     },
     {
       "Functional Rubber Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Functional-Rubber-Sheet.jpg",
         Description:
           "These functional rubber sheets range from anti-static rubber sheets to acid-resistant sheets, and as the name implies, can be manufactured to suit a range of requirements.",
         id: uuidv4(),
@@ -300,6 +331,7 @@ const productData = {
 
     {
       "Compressed Asbestos Rubber Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Compressed-Asbestos-Rubber-Sheet.jpg",
         Description:
           "Created from asbestos fibres, natural rubber and filler, our compressed asbestos rubber sheet combines the best of rubber and asbestos to suit your needs.",
         id: uuidv4(),
@@ -310,6 +342,7 @@ const productData = {
 
     {
       "Compressed Sheet Asbestos-Free": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Compressed-Sheet-Asbestos-Free.jpg",
         Description:
           "Created from a non-asbestos fibre, our compressed asbestos-free sheet contains latex binder and filling material that gives it unique heat and acid resistance properties.",
         id: uuidv4(),
@@ -319,6 +352,7 @@ const productData = {
     },
     {
       "PTFE Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/PTFE-Sheet-1.jpg",
         Description:
           "Created from either pure or reinforced polytetrafluoroethylene, our PTFE sheet provides resistance to a wide range of chemicals as well as electrical insulation and resistance to wear and tear.",
         id: uuidv4(),
@@ -328,6 +362,7 @@ const productData = {
     },
     {
       "Mica Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Mica-Sheet.jpg",
         Description:
           "Created from either muscovite or phlogopite paper, our mica sheet was created to be flexible and heat resistant.",
         id: uuidv4(),
@@ -337,6 +372,7 @@ const productData = {
     },
     {
       "Cork Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Cork-Sheet.jpg",
         Description:
           "Created from natural granulated cork, our cork sheet was created to combine water resistance and resilience.",
         id: uuidv4(),
@@ -347,6 +383,7 @@ const productData = {
 
     {
       "Composite Beater Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Composite-beater-sheet.jpg",
         Description:
           "Created from composite of asbestos fiber and inorganic filler, our composite beater sheet was made to be less dense while preserving its compressibility.",
         id: uuidv4(),
@@ -359,6 +396,7 @@ const productData = {
   PTFE: [
     {
       "PTFE Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/PTFE-SHeet.jpg",
         Description:
           "Created from polytetrafluoroethylene, PTFE is known for its chemical resistance as well as its electricity and wear resistance.",
         id: uuidv4(),
@@ -368,6 +406,7 @@ const productData = {
     },
     {
       "PTFE Rod/Sheet": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/PTFE-Rod-Sheet.jpg",
         Description:
           "Created from either pure or reinforced polytetrafluoroethylene, our PTFE sheet provides resistance to a wide range of chemicals as well as electrical insulation and resistance to wear and tear.",
         id: uuidv4(),
@@ -378,6 +417,7 @@ const productData = {
 
     {
       "PTFE Hose": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/PTFE-Hose.jpg",
         Description:
           "Created either with PTFE with additives or reinforced with steel wire braiding, our PTFE hose stands up to both chemicals and wear and tear.",
         id: uuidv4(),
@@ -387,6 +427,7 @@ const productData = {
     },
     {
       "PTFE Film/Tape": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/PTFE-Film-Tape.jpg",
         Description:
           "Created from high strength polytetrafluoroethylene, our PTFE tape is designed to be thinner for use in a number of flexible operations.",
         id: uuidv4(),
@@ -397,6 +438,7 @@ const productData = {
 
     {
       "Expanded PTFE Tape/Cord": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/Expanded-PTFE-Tape-Cord.png",
         Description:
           "Created from pure PTFE, our expanded PTFE tape retains the unique properties of the parent material in a much more manageable form",
         id: uuidv4(),
@@ -407,6 +449,7 @@ const productData = {
 
     {
       "PTFE Gasket": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/PTFE-Gasket-1.jpg",
         Description:
           "Created from PTFE resin, our PTFE gasket has one of the best resistance to chemicals on the planet as well as excellent electrical insulation. It could be also combined with glass fibre.",
         id: uuidv4(),
@@ -416,6 +459,7 @@ const productData = {
     },
     {
       "Filled PTFE Products": {
+        ImageSrc:"https://emdadalsharqiyah.com/wp-content/uploads/2020/01/PTFE-Filled-Products.jpg",
         Description:
           "Created from filled PTFE resin, out PTFE filled products combine compression strength with low thermal expansion.",
         id: uuidv4(),

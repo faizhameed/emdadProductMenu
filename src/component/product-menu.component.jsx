@@ -65,7 +65,7 @@ const useStyles = makeStyles(theme => {
       borderRight: `1px solid ${theme.palette.divider}`
     },
     media: {
-      height: 200,
+      height: 250,
       borderRadius: "4px 4px 0 0"
     },
     rootSmall: {
@@ -128,8 +128,8 @@ export default function VerticalTabs() {
                       <Paper className="product-item">
                         <CardMedia
                           className={classes.media}
-                          image="https://picsum.photos/seed/picsum/200/300"
-                          title={Object.keys(item)[0]}
+                          image={item[Object.keys(item)[0]].ImageSrc}
+                          title={Object.keys(item)[0]}//300X250
                         />
                         <h3>{Object.keys(item)}</h3>
                         <p>{item[Object.keys(item)[0]].Description}</p>
