@@ -48,7 +48,7 @@ const useStyles = makeStyles(theme => {
       flexGrow: 1,
       backgroundColor: theme.palette.background.paper,
       display: "flex",
-      height: "80vh",
+      height: "100vh",
       "&::-webkit-scrollbar ": {
         width: " 0.2em"
       },
@@ -72,7 +72,7 @@ const useStyles = makeStyles(theme => {
       flexGrow: 1,
       backgroundColor: theme.palette.background.paper,
       display: "block",
-      height: "80vh",
+      height: "100vh",
       margin: "0 auto"
     }
   };
