@@ -1,0 +1,1 @@
+CREATE TABLE `emdadals_wp904`.`industrial_products_emdad` ( `main_item` TEXT NULL DEFAULT NULL , `sub_product` TEXT NULL DEFAULT NULL , `description` TEXT NULL DEFAULT NULL , `uses` TEXT NULL DEFAULT NULL , `item_id` TEXT NULL DEFAULT NULL ) ENGINE = InnoDB;
