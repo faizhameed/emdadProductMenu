@@ -129,12 +129,16 @@ export default function VerticalTabs() {
                         <CardMedia
                           className={classes.media}
                           image={item[Object.keys(item)[0]].ImageSrc}
-                          title={Object.keys(item)[0]}//300X250
+                          title={Object.keys(item)[0]} //300X250
                         />
                         <h3>{Object.keys(item)}</h3>
-                        <p>{item[Object.keys(item)[0]].Description}</p>
+                        <p className="prv-copy">
+                          {item[Object.keys(item)[0]].Description}
+                        </p>
                         <h4>Uses</h4>
-                        <p>{item[Object.keys(item)[0]].Uses}</p>
+                        <p className="prv-copy">
+                          {item[Object.keys(item)[0]].Uses}
+                        </p>
                       </Paper>
                     </Grid>
                   );
